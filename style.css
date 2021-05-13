@@ -1,0 +1,174 @@
+.modal.show{
+  display:block;
+}
+.shadow, div.modal-style, .background-card-view {
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25); }
+
+.form-details div label {
+  color: #004F84;
+  font-size: 12px; }
+.form-details div input, .form-details div textarea, .form-details div select {
+  border-radius: 20px;
+  border: 1px solid #004F84;
+  resize: none; }
+
+.btn-green {
+  border-radius: 50px;
+  color: #fff;
+  background-color: #79C23B;
+  border-color: #79C23B;
+  padding: 0.5rem 2rem; }
+
+.btn-green:hover {
+  border-radius: 50px;
+  color: #79C23B;
+  background-color: #EBF7FF;
+  border-color: #79C23B;
+  padding: 0.5rem 2rem; }
+
+.btn-red {
+  border-radius: 50px;
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  padding: 0.5rem 2rem; }
+
+.btn-red:hover {
+  border-radius: 50px;
+  color: #dc3545;
+  background-color: #EBF7FF;
+  border-color: #dc3545;
+  padding: 0.5rem 2rem; }
+
+div.modal-style {
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 50vw; }
+
+.text-color {
+  color: #004F84; }
+
+div.modal-header, div.modal-footer {
+  border: 0px solid #00000000; }
+
+.connection-success-popup .modal-content div.modal-header {
+  background-color: #004F84;
+  padding: 0.5rem 1.2rem; }
+  .connection-success-popup .modal-content div.modal-header button.b {
+    color: white; }
+
+.modal-title.popup-title {
+  color: white;
+  font-weight: 200; }
+
+.popup-close-btn {
+  box-sizing: content-box;
+  width: 1em;
+  height: 1em;
+  padding: .25em .25em;
+  color: #000;
+  background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFF'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+  border: 0;
+  border-radius: .25rem;
+  opacity: .5; }
+
+.big-text {
+  font-weight: 100; }
+
+.background-card-view {
+  border-radius: 20px;
+  overflow: hidden;
+  height: calc(35vh - 3rem); }
+
+.template-content-section {
+  background-color: #EBF7FF;
+  border-radius: 0px;
+  color: #004F84; }
+  .template-content-section div .heading {
+    font-size: 21px;
+    font-weight: 600; }
+  .template-content-section div .description {
+    font-size: 14px;
+    font-weight: 300; }
+
+.btn-green {
+  border-radius: 50px;
+  color: #fff;
+  background-color: #79C23B;
+  border-color: #79C23B;
+  padding: 0.5rem 2rem; }
+
+.btn-green:hover {
+  border-radius: 50px;
+  color: #79C23B;
+  background-color: #EBF7FF;
+  border-color: #79C23B;
+  padding: 0.5rem 2rem; }
+
+.strip {
+  background-color: #004F84; }
+
+.strip-heading {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: white;
+  padding: 0.7rem 1rem;
+  margin: 0; }
+
+.strip-content {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: white;
+  padding: 0.7rem 2rem;
+  margin: 0; }
+
+.input-field input {
+  border-radius: 50px;
+  background-color: #00000000;
+  color: white; }
+.input-field input:focus {
+  border-radius: 50px;
+  background-color: #00000000;
+  color: white; }
+.input-field input::placeholder {
+  border-radius: 50px;
+  background-color: #00000000;
+  color: white; }
+
+.drop-down select {
+  border-radius: 50px;
+  background-color: #00000000;
+  color: white; }
+.drop-down select:focus {
+  border-radius: 50px;
+  background-color: #00000000;
+  color: white; }
+.drop-down select:after {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #f00;
+  position: absolute;
+  top: 40%;
+  right: 5px;
+  content: "";
+  z-index: 98; }
+
+.submit-btn button {
+  border-radius: 50px;
+  color: #fff;
+  background-color: #79C23B;
+  border-color: #79C23B; }
+
+.delete-btn button {
+  border-radius: 50px;
+  color: #fff; }
+
+.data-list {
+  list-style: none;
+  padding: 0 1rem; }
+
+/*# sourceMappingURL=style.css.map */
