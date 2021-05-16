@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "react-ui",
+            "script": "npm",
+            "args" : "start"
+        }
+    ]
+}
