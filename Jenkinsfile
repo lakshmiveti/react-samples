@@ -1,31 +1,26 @@
 pipeline {
-    agent {
-        docker {
-            image 'node:6'
-            args '-p 3000:3000'
-        }
-    }
-     environment {
+    agent any
+    environment {
             CI = 'true'
         }
     stages {
         stage('Build') {
             steps {
-                sh 'npm install'
+                bat 'npm install'
             }
         }
         stage('Test') {
                     steps {
-                        sh "chmod +x -R ${env.WORKSPACE}"
-                        sh './jenkins/scripts/test.sh'
+                       // sh "chmod +x -R ${env.WORKSPACE}"
+                        bat './jenkins/scripts/test.bat'
                     }
                 }
                 stage('Deliver') {
                             steps {
-                                sh "chmod +x -R ${env.WORKSPACE}"
-                                sh './jenkins/scripts/deliver.sh'
+                                //sh "chmod +x -R ${env.WORKSPACE}"
+                                bat './jenkins/scripts/deliver.bat'
                                 input message: 'Finished using the app? (Click "Proceed" to continue)'
-                                sh './jenkins/scripts/kill.sh'
+                                bat './jenkins/scripts/kill.bat'
                             }
                         }
 
